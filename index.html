@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Boot-Mainnet Dashboard (Replit)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Inter, Roboto, Arial; padding: 24px; background:#f5f7fb; color:#0b1220; }
+    .card { background:white; padding:16px; border-radius:12px; box-shadow: 0 6px 18px rgba(12,25,40,0.06); margin-bottom:12px; }
+    .muted { color:#6b7280; font-size:14px; }
+    pre { background:#f3f4f6; padding:12px; overflow:auto; border-radius:8px; }
+  </style>
+</head>
+<body>
+  <h1>Boot-Mainnet — Dashboard (Demo)</h1>
+  <div class="card">
+    <h3>Modo</h3>
+    <p class="muted">Blind Admin: <strong>Activado (por defecto)</strong></p>
+  </div>
+
+  <div class="card">
+    <h3>Wallet Pública (display)</h3>
+    <p class="muted">Se muestra en modo <strong>MASKED</strong></p>
+    <pre id="wallet">0x231D...15C0A</pre>
+  </div>
+
+  <div class="card">
+    <h3>Notificaciones</h3>
+    <p class="muted">Configura SMTP o Telegram en el panel de configuración.</p>
+  </div>
+
+  <div class="card">
+    <h3>Notas</h3>
+    <p class="muted">Este es un scaffold listo para Replit. Conecta tus credenciales en .env o en el panel.</p>
+  </div>
+</body>
+</html>
